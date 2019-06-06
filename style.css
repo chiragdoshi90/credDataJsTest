@@ -1,0 +1,46 @@
+body {
+  padding: 10px;
+}
+
+.grid-item { 
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 600px;
+}
+
+.grid-container {
+  display: grid;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.box {
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  height: 15px;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.delBtn {
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 8px;
+  font-size: 10px;
+    top: 0px;
+    position: absolute;
+    right: 0;
+}
+
+.incremData {
+  font-size: 15px;
+  top: 0px;
+  position: absolute;
+}
+
+#mySelect {
+  margin-right: 20px;
+}
